@@ -1,0 +1,18 @@
+:root {
+
+  /* ### Fonts */
+
+  --FontNormal: 400;
+  --FontBold: 700;
+
+  /* ### Primary */
+
+  --DesaturatedDarkCyan-Primary: hsl(180, 29%, 50%);
+
+  /* ### Neutral */
+
+  --LightGrayishCyan-Background: hsl(180, 52%, 96%);
+  --LightGrayishCyan-FilterTablets: hsl(180, 31%, 95%);
+  --DarkGrayishCyan: hsl(180, 8%, 52%);
+  --VeryDarkGrayishCyan: hsl(180, 14%, 20%);
+}

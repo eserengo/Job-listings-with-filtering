@@ -1,0 +1,27 @@
+/*
+ Name: Job Listings with filtering.
+ Description: A Frontendmentor.io coding challenge.
+ Author: Federico Borzani.
+ Author URL:  https://github.com/eserengo/
+*/
+
+@import "variables.css";
+
+* {
+  font-family: "League Spartan";
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0%;
+  margin: 0%;
+  user-select: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+ul, li {
+  list-style-type: none;
+}
