@@ -2,8 +2,8 @@
 
   /* ### Fonts */
 
-  --FontNormal: 400;
-  --FontBold: 700;
+  --NormalFont: 400;
+  --BoldFont: 700;
 
   /* ### Primary */
 
@@ -12,7 +12,8 @@
   /* ### Neutral */
 
   --LightGrayishCyan-Background: hsl(180, 52%, 96%);
-  --LightGrayishCyan-FilterTablets: hsl(180, 31%, 95%);
+  --LightGrayishCyan-FilterTablets: hsl(180, 32%, 91%);
   --DarkGrayishCyan: hsl(180, 8%, 52%);
   --VeryDarkGrayishCyan: hsl(180, 14%, 20%);
+  --Red: hsl(9, 82%, 57%);
 }

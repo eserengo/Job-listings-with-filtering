@@ -7,9 +7,12 @@
 
 @import "variables.css";
 
-* {
+*,
+*::before,
+*::after {
   font-family: "League Spartan";
   font-size: 16px;
+  font-weight: var(--NormalFont);
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
   max-width: 100%;
@@ -20,8 +23,59 @@
 
 body {
   min-height: 100vh;
+  min-width: 300px;
 }
 
 ul, li {
   list-style-type: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex__row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.evenly {
+  justify-content: space-evenly;
+}
+
+h1,
+h2,
+h3,
+.job__info__company,
+.job__tag,
+.job__info__pill,
+.dropdown__summary,
+.dropdown__status,
+.dropdown__clear__btn,
+.dropdown__clear__btn:hover::before {
+  font-weight: var(--BoldFont);
+}
+
+h1,
+.dropdown__clear__btn:hover::before {
+  font-size: 125%;
+}
+
+h2,
+h3 {
+  font-size: 100%;
+}
+
+.job__info__company,
+.job__info__pill,
+.job__info__details,
+.job__tag,
+.dropdown__status,
+.dropdown__clear__btn {
+  font-size: 75%;
 }

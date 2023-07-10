@@ -1,0 +1,53 @@
+@import "variables.css";
+
+main {
+  background-color: var(--LightGrayishCyan-FilterTablets);
+  padding: 5%;
+}
+
+.job__card {
+  background-color: var(--LightGrayishCyan-Background);
+  margin: 16px;
+  padding: 16px;
+  box-shadow: 0px 2px 8px var(--DesaturatedDarkCyan-Primary);
+  border-radius: 4px;
+}
+
+.featured {
+  border-left: 4px solid var(--DesaturatedDarkCyan-Primary);
+}
+
+.job__info {
+  margin-left: 16px;
+}
+
+.job__info * {
+  margin: 8px;
+}
+
+.job__info__company {
+  color: var(--DesaturatedDarkCyan-Primary);
+}
+
+.job__info__position {
+  color: var(--VeryDarkGrayishCyan);
+}
+
+.job__info__details {
+  color: var(--DarkGrayishCyan);
+}
+
+.job__info__pill {
+  background-color: var(--VeryDarkGrayishCyan);
+  color: var(--LightGrayishCyan-Background);
+  padding: 4px 8px 2px;
+  border-radius: 12px;
+}
+
+.job__tag {
+  margin: 0 4px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: var(--LightGrayishCyan-FilterTablets);
+  color: var(--DesaturatedDarkCyan-Primary);
+}

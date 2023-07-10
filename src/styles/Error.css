@@ -1,0 +1,18 @@
+@import "variables.css";
+
+.error__title {
+  color: var(--Red);
+}
+
+.error__page {
+  padding: 64px 0px;
+}
+
+.error__panel {
+  width: 50%;
+  text-align: center;
+}
+
+.error__panel * {
+  margin: 16px auto;
+}
